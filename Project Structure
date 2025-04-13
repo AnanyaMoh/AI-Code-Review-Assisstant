@@ -1,0 +1,28 @@
+ai-code-review-assistant/
+│
+├── backend/
+│   ├── app.py
+│   ├── model/
+│   │   └── code_model.h5
+│   ├── review_engine/
+│   │   ├── analyzer.py
+│   │   ├── nlp_model.py
+│   │   └── image_to_code.py
+│   ├── db/
+│   │   └── mongo_interface.py
+│   ├── Dockerfile
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── redux/
+│   │   ├── App.js
+│   │   └── index.js
+│   └── Dockerfile
+│
+├── docker-compose.yml
+├── README.md
+└── .azure-pipelines/
+    └── azure-pipeline.yml
